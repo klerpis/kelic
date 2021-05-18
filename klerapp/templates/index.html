@@ -39,19 +39,20 @@
     <!-- <h4 class="africa">Africa</h4> -->
     <div class="con">
 
-        {% for items in my_events %}
+        <!-- {% for items in my_events %} -->
 
         <div class="cart">
-            <a href="{% url 'event-list' %}">
-                <img class="imog" src="{% static 'website/img/huu.png' %}" alt="desert" width="200" height="70">
-                <h2 class="title">{{ items }}</h2>
-            </a>
+            <!-- <a href="{% url 'event-list' %}"> -->
+            <img class="imog" src="{% static 'website/img/huu.png' %}" alt="desert" width="200" height="70">
+            <h2 class="title">Crack</h2>
+            <!-- <h2 class="title">{{ items }}</h2> -->
+            <!-- </a> -->
             <div class="des">
-                <p>{{ items.description }}</p>
+                <p>nothing going on here just ignore</p>
+                <!-- <p>{{ items.description }}</p> -->
             </div>
         </div>
-        {% endfor %}
-        <!-- <div class="cart">
+        <div class="cart">
             <img class="imog" src="{% static 'website/img/dream.jpg' %}" alt="desert" width="200" height="200">
             <h2 class="title">Crack</h2>
             <div class="des">
@@ -59,7 +60,9 @@
                     esse, et smoke omnis iusto.</p>
             </div>
         </div>
-        <div class="cart">
+        {% endfor %}
+        <!-- 
+            <div class="cart">
             <img class="imog" src="{% static 'website/img/cool_blue.jpg' %}" alt="desert" width="200" height="200">
             <h2 class="title">Klerpis</h2>
             <div class="des">
