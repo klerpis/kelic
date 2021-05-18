@@ -7,7 +7,7 @@ def home(request):
     my_events = Event.objects.all()
     return render(request, "index.html", {
         "my_events": my_events,
-        "club": club
+        "club": club,
     })
 
 
@@ -16,5 +16,5 @@ def event_list(request):
     my_events = Event.objects.all()
     return render(request, "event_list.html", {
         "my_events": my_events,
-        "club": club
+        "club": club,
     })
