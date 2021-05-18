@@ -9,28 +9,28 @@ const textTitle = document.querySelector('.title');
 const imog = document.querySelector('.imog');
 
 
-const listDisplay = document.querySelectorAll('.con')
+// const listDisplay = document.querySelectorAll('.cart')
 
-const displaybut = document.querySelector('.list-display')
-
-
-displaybut.addEventListener('click', () => {
-
-    listDisplay.forEach(but => {
-        console.log(but)
-        but.classList.toggle('list-display')
-        // but.classList.toggle('cart')
+// const displaybut = document.querySelector('.list-display')
 
 
-    })
-    // for (items in listDisplay) {
-    // items.classList.toggle('list-display')
-    // }
+// displaybut.addEventListener('click', () => {
 
-    // })
+//     listDisplay.forEach(but => {
+//         console.log(but)
+//         // but.classList.toggle('list-display')
+//         // but.classList.toggle('align')
 
 
-})
+//     })
+// for (items in listDisplay) {
+// items.classList.toggle('list-display')
+// }
+
+// })
+
+
+// })
 
 
 icon.addEventListener('click', () => {
